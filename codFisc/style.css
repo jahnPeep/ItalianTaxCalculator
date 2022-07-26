@@ -1,0 +1,285 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+nav {
+    height: 4rem;
+    background-image: url(nav2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-brand {
+    color: #055813;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left {
+    min-width: 750px;
+}
+
+.right p {
+    text-align:center;
+    padding-top: 150px;
+    font-size: larger;
+}
+
+.tessera {
+    background-image: url("ts.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+input {
+    margin-left: 175px;
+}
+
+#cF {
+    margin-top: 160px;
+    width: 220px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#sur {
+    margin-top: 27px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 148px;
+}
+
+#nam {
+    margin-top: 8px;
+    width: 130px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#gen {
+    margin-left: 250px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#bP {
+    margin-top: 20px;
+    width: 130px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#sP {
+    margin-top: 20px;
+    width: 60px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#dB {
+    margin-top: 20px;
+    font-size: larger;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.Exception {
+    font-size: 20px;
+    margin-left: 9%;
+    visibility: hidden;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .container {
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        height: 3rem;
+        background-image: url(nav.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .nav-brand {
+        color: #055813;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 12px;
+        padding-left: 115px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .left {
+        padding-top: 30px;
+        min-width: 300px;
+    }
+    
+    .right p {
+        text-align:center;
+        padding-top: 75px;
+        font-size: larger;
+    }
+
+    input {
+        margin-left: 60px;
+    }
+    
+    #cF {
+        margin-top: 63px;
+        width: 115px;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #sur {
+        margin-top: 1px;
+        width: auto;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #nam {
+        margin-top: 1px;
+        width: auto;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #gen {
+        margin-left: 45px;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #bP {
+        margin-top: 1px;
+        width: auto;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #sP {
+        margin-top: 1px;
+        width: auto;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #dB {
+        margin-top: 1px;
+        font-size: xx-small;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+ }
+ @media only screen and (min-device-width: 1500px) {
+    .container {
+        margin: 0 20px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 180px;
+        padding-top: 80px;
+    }
+    
+    .left {
+        min-width: 750px;
+    }
+    
+    .right p {
+        text-align:center;
+        padding-top: 150px;
+        font-size: x-large;
+    }
+    
+    .tessera {
+        background-image: url("ts.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    input {
+        margin-left: 175px;
+    }
+    
+    #cF {
+        margin-top: 160px;
+        width: 220px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #sur {
+        margin-top: 27px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 148px;
+    }
+    
+    #nam {
+        margin-top: 8px;
+        width: 130px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #gen {
+        margin-left: 250px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #bP {
+        margin-top: 20px;
+        width: 130px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #sP {
+        margin-top: 20px;
+        width: 60px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    #dB {
+        margin-top: 20px;
+        font-size: larger;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+ }

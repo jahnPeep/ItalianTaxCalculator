@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="style.css">
+    <script src="birthplace.js"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript" src="func.js"></script>
+    <title>Calcolo Codice Fiscale</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                CFfinder
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left">
+            <div class="tessera">
+                <form id="frm" method="post" action="">
+                    <input type="text" name="codFisc" id="cF" readonly="readonly"><br />
+                    <input type="text" name="surname" id="sur"><br />
+                    <input type="text" name="name" id="nam"><select name="gen" id="gen">
+                        <option value="M" selected="selected">M</option>
+                        <option value="F">F</option>
+                    </select><br />
+                    <input type="text" name="bornPlace" id="bP"><br />
+                    <input type="text" name="sP" id="sP"><br /><input type="date" name="dateBorn" id="dB"><br /><br /><br />
+                    <p class="Exception" id="Exception"></p>
+                    <input type="button" value="CALCOLA" onclick="calcolo()"><input type="reset" value="PULISCI">
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <p>Tramite cfFinder, compilando il modulo, potrete calcolare il vostro <b>codice fiscale</b><br /> facilmente e in maniera velocissima.<br />
+                Il servizio non tiene registro dei dati inseriti dall'utente
+                </p>
+        </div>
+    </div>
+</body>
+</html>
